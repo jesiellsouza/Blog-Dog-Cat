@@ -1,0 +1,59 @@
+@media (max-width: 999px) {
+    body {
+        overflow-x: hidden;
+    }
+    .nav-list {
+        position: absolute;
+        top: 19vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        background-color: #01582d;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+        z-index: 2;
+    }
+    .nav-list li {
+        margin-left: 0;
+        opacity: 0;
+    }
+    .mobile-menu {
+        display: block;
+    }
+    .menu-principal p {
+       display: none;
+    }
+    .postagens-content{
+        background-size: 22px;
+    }
+    .postagem {
+        width: 400px;
+        justify-content: center;
+    }
+    .postagem img {
+        width: 300px;
+        height: 250px;
+    }
+    .postagem .title-postagem {
+        width: 300px;
+    }
+    .date-postagem {
+        width: 300px;
+    }
+    .descricao-postagem {
+        width: 300px;
+        text-align: center;
+    }
+    .postagem a {
+        justify-content: center;
+    }
+    .rodape-links {
+        text-align: center;
+    }
+    .criador {
+        font-size: 12px;
+    }
+}
