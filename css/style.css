@@ -36,7 +36,7 @@ nav {
 }
 
 .logo img {
-    width: 120px;
+    width: 110px;
     padding: 5px;
 }
 
@@ -124,7 +124,7 @@ nav {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     text-align: center;
-    
+    margin: 0 15px;
 }
 
 .postagem-recentes-title {
@@ -145,6 +145,7 @@ nav {
     display: flex;
     justify-content: center;
     background-image: url(../img/teste.png);
+    background-attachment: fixed;
     background-position: top;
     background-color: gainsboro;
     background-size: 80px;
