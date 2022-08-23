@@ -215,6 +215,30 @@ nav {
 }
 /*final-postagen-principal*/
 
+.galeria-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    gap: 10px;
+}
+
+.galeria-img {
+    width: 250px;
+    height: 190px;
+}
+
+.galeria-img img {
+    display: flex;
+    width: 250px;
+    height: 190px;
+    object-fit: cover;
+    position: absolute;
+    border-radius: 10px;
+}
 
 
 .rodape-content {
